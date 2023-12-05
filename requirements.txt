@@ -1,0 +1,11 @@
+fastapi
+uvicorn 
+python-dotenv
+SQLAlchemy
+pymysql 
+alembic 
+python-jose[cryptography] 
+passlib 
+python-multipart
+jinja2
+pydantic_settings
