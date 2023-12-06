@@ -1,4 +1,5 @@
 .env
 *__pycache__/*
+alembic/versions/*
 app/__pycache__/
 bizenv/
