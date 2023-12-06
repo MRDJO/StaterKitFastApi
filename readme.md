@@ -2,7 +2,7 @@
 
 Welcome to the Business Application API! 
 
-##1. Installation
+## 1. Installation
 
 ###1.1 Creer votre environnement de développement 
 
