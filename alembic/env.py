@@ -3,7 +3,7 @@ from logging.config import fileConfig
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
-from app.api.core.config import get_settings 
+from app.core.config import get_settings 
 
 setting = get_settings()
 
@@ -23,8 +23,8 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-from app.api.features.auth.models import user_model
-from app.api.core.database import Base
+from app.api.auth.models import user_model
+from app.core.database import Base
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
