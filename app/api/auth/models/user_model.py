@@ -13,4 +13,5 @@ class UserModel(BaseModelEntity):
    email=Column(String(30), unique=True , nullable=True)
    password=Column(String(255))
    telephone=Column(Integer, unique=True, nullable=True)
+   role=relationship("RoleModel", )
   
